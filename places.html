@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <link rel="icon" href="https://w1.pngwing.com/pngs/656/814/png-transparent-japan-lucky-chinatown-symbol-shinto-religion-in-japan-japanese-language-torii-flag-of-japan-thumbnail.png" type="image/svg+xml">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Przyciągające miejsca - Japonia</title>
+ <link rel="stylesheet" href="../styles/style.css">
+
+</head>
+<body>
+  <header>
+    <h1>Przyciągające miejsca w Japonii</h1>
+  </header>
+  <nav>
+    <a href="index.html">Strona główna</a>
+    <a href="places.html">Przyciągające miejsca</a>
+    <a href="travel.html">Jak podróżować</a>
+  </nav>
+    <main class="cards-container">
+  <div class="place-card" onclick="openModal('modal-kioto')">
+    <span class="category">Kioto</span>
+    <h3>Kioto</h3>
+    <img src="https://pohcdn.com/sites/default/files/styles/node__blog_post__bp_banner__blog_post_banner/public/2022-03/kioto.jpg" alt="Kioto">
+    <p>Historyczne świątynie, ogrody zen, gejsze.</p>
+  </div>
+
+  <div class="place-card" onclick="openModal('modal-tokio')">
+    <span class="category">Tokio</span>
+    <h3>Tokio</h3>
+    <img src="https://cdn2.tu-tu.ru/image/pagetree_node_data/1/629a3e88dc2497487d476f458c19fcde/" alt="Tokio">
+    <p>Metropolia z futurystyczną architekturą i Akihabara.</p>
+  </div>
+
+<div class="place-card" onclick="openModal('modal1')">
+  <span class="category">Kioto</span>
+  <img src="https://oyakata.com.pl/wp-content/uploads/2022/08/arashiyama-bambusy.jpg" alt="Arashiyama Bamboo Grove" />
+  <h3>Arashiyama</h3>
+  <p>Bambusowy las w Kioto</p>
+</div>
+<div id="modal1" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal1')">&times;</span>
+    <h2>Arashiyama Bamboo Grove</h2>
+    <img src="https://oyakata.com.pl/wp-content/uploads/2022/08/arashiyama-bambusy.jpg" alt="Arashiyama" />
+    <p>Malowniczy las bambusowy w zachodnim Kioto. Spacer wśród wysokich bambusów to magiczne doświadczenie.</p>
+    <a href="https://maps.app.goo.gl/mH36j11KTi2KLuxD8" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal2')">
+  <img src="https://kenzly.com/wp-content/uploads/2024/06/Fushimi-Inari-Taisha-Shrine-Building-1200x900.jpg" alt="Fushimi Inari-taisha" />
+  <span class="category">Kioto</span>
+  <h3>Fushimi Inari</h3>
+  <p>Czerwone bramy Tori</p>
+</div>
+<div class="modal" id="modal2">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal2')">&times;</span>
+    <h2>Fushimi Inari</h2>
+    <img src="https://kenzly.com/wp-content/uploads/2024/06/Fushimi-Inari-Taisha-Shrine-Building-1200x900.jpg" alt="Fushimi Inari-taisha" />
+    <p>Słynne czerwone bramy torii w Kioto, prowadzące do świątyni Fushimi Inari.</p>
+    <a href="https://maps.app.goo.gl/XiPGWkAiK7vSviwu5" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal3')">
+  <img src="https://sevennaturalwonders.org/wp-content/uploads/2023/12/1-Mount-Fuji.jpg" alt="Mount Fuji" />
+  <span class="category">Shizuoka</span>
+  <h3>Góra Fuji</h3>
+  <p>Najwyższy szczyt Japonii</p>
+</div>
+<div class="modal" id="modal3">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal3')">&times;</span>
+    <h2>Góra Fuji</h2>
+    <img src="https://sevennaturalwonders.org/wp-content/uploads/2023/12/1-Mount-Fuji.jpg" alt="Mount Fuji" />
+    <p>Słynna góra Fuji – symbol Japonii i cel pielgrzymek.</p>
+    <a href="https://maps.app.goo.gl/bBnx5sgWww5KSo7n9" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal4')">
+  <img src="https://narashikanko.or.jp/lsc/upfile/spot/0001/0089/10089_1_l.jpg" alt="Nara Park" />
+  <span class="category">Nara</span>
+  <h3>Nara Park</h3>
+  <p>Jelenie i świątynie</p>
+</div>
+<div class="modal" id="modal4">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal4')">&times;</span>
+    <h2>Nara Park</h2>
+    <img src="https://narashikanko.or.jp/lsc/upfile/spot/0001/0089/10089_1_l.jpg" alt="Nara Park" />
+    <p>Park z wolno chodzącymi jeleniami i pięknymi świątyniami.</p>
+    <a href="https://maps.app.goo.gl/jFXt8iCVTMmw3frY8" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal5')">
+  <img src="https://www.gotokyo.org/en/destinations/eastern-tokyo/skytree-and-around/images/main_g10027.jpg" alt="Tokyo Skytree" />
+  <span class="category">Tokyo</span>
+  <h3>Tokyo Skytree</h3>
+  <p>Wieża i panorama miasta</p>
+</div>
+<div class="modal" id="modal5">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal5')">&times;</span>
+    <h2>Tokyo Skytree</h2>
+    <img src="https://www.gotokyo.org/en/destinations/eastern-tokyo/skytree-and-around/images/main_g10027.jpg" alt="Tokyo Skytree" />
+    <p>Najwyższa wieża w Japonii oferująca wspaniały widok na Tokio.</p>
+    <a href="https://maps.app.goo.gl/a7s34PuAi8C5CQVVA" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal6')">
+  <img src="https://travel.rakuten.com/contents/sites/contents/files/styles/max_1300x1300/public/2023-08/shirakawago_1.jpg?itok=lXpf_XUo" alt="Shirakawa-go" />
+  <span class="category">Gifu</span>
+  <h3>Shirakawa-go</h3>
+  <p>Tradycyjne domy</p>
+</div>
+<div class="modal" id="modal6">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal6')">&times;</span>
+    <h2>Shirakawa-go</h2>
+    <img src="https://travel.rakuten.com/contents/sites/contents/files/styles/max_1300x1300/public/2023-08/shirakawago_1.jpg?itok=lXpf_XUo" alt="Shirakawa-go" />
+    <p>Wieś znana z domów w stylu gasshō-zukuri, wpisana na listę UNESCO.</p>
+    <a href="https://maps.app.goo.gl/ojubTcUS9pcECute6" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal7')">
+  <img src="https://cdn.gaijinpot.com/app/uploads/sites/6/2016/01/Miyajima-Floating-shrine.jpg" alt="Miyajima">
+  <h3>Itsukushima (Miyajima)</h3>
+  <span class="category">Hiroshima</span>
+</div>
+<div id="modal7" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal7')">&times;</span>
+    <h2>Itsukushima (Miyajima)</h2>
+    <img src="https://cdn.gaijinpot.com/app/uploads/sites/6/2016/01/Miyajima-Floating-shrine.jpg" alt="Miyajima">
+    <p>Znana z unoszącej się na wodzie bramy torii. Malownicza wyspa blisko Hiroszimy.</p>
+    <a href="https://maps.app.goo.gl/HmqHQZrh5FW2TaR57" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal8')">
+  <img src="https://www.japan-guide.com/g19/4200_01.jpg" alt="Shirakawa-go">
+  <h3>Shirakawa-go</h3>
+  <span class="category">Gifu</span>
+</div>
+<div id="modal8" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal8')">&times;</span>
+    <h2>Shirakawa-go</h2>
+    <img src="https://www.japan-guide.com/g19/4200_01.jpg" alt="Shirakawa-go">
+    <p>Tradycyjna wieś z domami w stylu gassho-zukuri, wpisana na listę UNESCO.</p>
+    <a href="https://maps.app.goo.gl/ojubTcUS9pcECute6" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal9')">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Osaka_Castle_02bs3200.jpg" alt="Tottori">
+  <h3>Tottori Sand Dunes</h3>
+  <span class="category">Tottori</span>
+</div>
+<div id="modal9" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal9')">&times;</span>
+    <h2>Tottori Sand Dunes</h2>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/e/e4/Osaka_Castle_02bs3200.jpg" alt="Tottori">
+    <p>Największe wydmy w Japonii, przypominające pustynię. Atrakcje jak przejażdżki na wielbłądach!</p>
+    <a href="https://maps.app.goo.gl/t8TEqDbZ2AMK9Qyo7" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal10')">
+  <img src="https://japanspecialist.com/documents/465938/1190846/1_Hakone.jpg/578300b4-43c2-5dd7-bfa4-dbecf746999d?version=1.0&t=1688393030700&download=true" alt="Alpine Route">
+  <h3>Tateyama Kurobe Alpine Route</h3>
+  <span class="category">Toyama</span>
+</div>
+<div id="modal10" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal10')">&times;</span>
+    <h2>Tateyama Kurobe Alpine Route</h2>
+    <img src="https://japanspecialist.com/documents/465938/1190846/1_Hakone.jpg/578300b4-43c2-5dd7-bfa4-dbecf746999d?version=1.0&t=1688393030700&download=true" alt="Alpine Route">
+    <p>Słynna trasa przez Alpy Japońskie z wysokimi ścianami śniegu i zapierającymi dech widokami.</p>
+    <a href="https://maps.app.goo.gl/rFjQHHWDzGAxGKjq5" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal11')">
+  <img src="https://planetescape.pl//app/uploads/2024/06/Nikko-%E2%80%93-Swiatynia-Taiyuinbyo.jpeg" alt="Sado Island">
+  <h3>Sado Island</h3>
+  <span class="category">Niigata</span>
+</div>
+<div id="modal11" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal11')">&times;</span>
+    <h2>Sado Island</h2>
+    <img src="https://planetescape.pl//app/uploads/2024/06/Nikko-%E2%80%93-Swiatynia-Taiyuinbyo.jpeg" alt="Sado Island">
+    <p>Znana z bogatej kultury, złotych kopalni i tradycji bębnów taiko. Spokojna i malownicza.</p>
+    <a href="https://maps.app.goo.gl/JXm4mixkGESg7kKEA" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal12')">
+  <img src="https://photos.smugmug.com/Kyoto/Naoshima/i-pqm9V63/0/a0e01e81/L/shutterstock_568757074-L.jpg" alt="Iya Valley">
+  <h3>Iya Valley</h3>
+  <span class="category">Tokushima</span>
+</div>
+<div id="modal12" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal12')">&times;</span>
+    <h2>Iya Valley</h2>
+    <img src="https://photos.smugmug.com/Kyoto/Naoshima/i-pqm9V63/0/a0e01e81/L/shutterstock_568757074-L.jpg" alt="Iya Valley">
+    <p>Głęboka dolina w górach Shikoku, znana z mostów z pnączy i dzikiej przyrody.</p>
+    <a href="https://maps.app.goo.gl/rxnypgdQZmYFUk8Z8" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+<div class="place-card" onclick="openModal('modal13')">
+  <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/109000/109225-Takayama.jpg" alt="Rabbit Island">
+  <h3>Okunoshima (Rabbit Island)</h3>
+  <span class="category">Hiroshima</span>
+</div>
+<div id="modal13" class="modal">
+  <div class="modal-content">
+    <span class="close" onclick="closeModal('modal13')">&times;</span>
+    <h2>Okunoshima (Rabbit Island)</h2>
+    <img src="https://a.travel-assets.com/findyours-php/viewfinder/images/res70/109000/109225-Takayama.jpg" alt="Rabbit Island">
+    <p>Wyspa zamieszkała przez setki przyjaznych królików. Idealne miejsce na relaks.</p>
+    <a href="https://maps.app.goo.gl/MZ3uUTDRyD41vwEV9" target="_blank">📍 Zobacz na mapie</a>
+  </div>
+</div>
+
+  <div id="modal-kioto" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-kioto')">&times;</span>
+      <h2>Kioto</h2>
+      <img src="https://pohcdn.com/sites/default/files/styles/node__blog_post__bp_banner__blog_post_banner/public/2022-03/kioto.jpg" alt="Kioto">
+      <p>Kioto to dawna stolica Japonii, znana z pięknych świątyń buddyjskich, ogrodów zen, pałaców cesarskich i tradycyjnej kultury.</p>
+      <a href="https://maps.app.goo.gl/F6yy9Qu91uuvCQJNA" target="_blank">📍 Zobacz na mapie</a>
+    </div>
+  </div>
+
+  <div id="modal-tokio" class="modal">
+    <div class="modal-content">
+      <span class="close" onclick="closeModal('modal-tokio')">&times;</span>
+      <h2>Tokio</h2>
+      <img src="https://cdn2.tu-tu.ru/image/pagetree_node_data/1/629a3e88dc2497487d476f458c19fcde/" alt="Tokio">
+      <p>Tokio to nowoczesna metropolia, w której znajdziesz wieżowce, technologię, ale też historyczne miejsca jak Asakusa i świątynia Sensō-ji.</p>
+      <a href="https://maps.app.goo.gl/5xkVYD3dguQtXC6X6" target="_blank">📍 Zobacz na mapie</a>
+    </div>
+  </div>
+  <button onclick="scrollToTop()" id="topBtn">🔝 Na górę</button>
+  </main>
+  <script src="../script/script_places.js"></script>
+
+</body>
+</html>
